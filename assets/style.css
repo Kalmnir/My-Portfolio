@@ -1,0 +1,13 @@
+:root {
+    --dark-purple: #16001E;
+    --light-text: #EAE6E5;
+
+
+}
+
+
+
+* {
+    background-color: var(--dark-purple);
+    color: var(--light-text);
+}
