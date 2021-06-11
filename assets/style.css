@@ -2,6 +2,7 @@
     --deep-space: #4A5759;
     --light-text: #EAE6E5;
     --gentle: #ad9f93;
+    --lighter: #B9ADA2;
     --sky: #51B4CD;
 
 
@@ -14,7 +15,7 @@
 }
 
 h1 {
-
+    background-color: var(--lighter) ;
 }
 
 h2 {
@@ -25,21 +26,20 @@ h2 {
 header {
     margin: 0%;
     padding: 4px;
+    background-color: var(--lighter);
 }
 
-header div {
-    display: flex;
-    justify-content: center;
-}
 
 nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: var(--lighter);
 }
 
 nav a {
     color: yellow;
+    background-color: var(--lighter);
 }
 
 .outline {
@@ -69,7 +69,7 @@ nav a {
     nav {
         flex-direction: row;
         align-items: flex-end;
-        justify-content: space-between;
+        justify-content: right;
     }
 
     #about-me {
