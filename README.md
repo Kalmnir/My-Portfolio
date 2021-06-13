@@ -11,6 +11,7 @@ But I do have a general website mostly consturcted now with a few features.
 -A link leading to my first project I completed, that being the re-factoring of the horiseon website code.
 -Place holder images placed on the site for use until I have more completed projects to showcase.
 -Links leading to my social medias and email as a way to contact me.
+-Integration of CSS code that changes aspects of the page depending on the resolution of the device it's being viewed on.
 
 ```
 
