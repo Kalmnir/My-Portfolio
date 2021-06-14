@@ -22,6 +22,7 @@ body {
 h1 {
     background-color: var(--deep-space) ;
     max-width: fit-content;
+    border: var(--gentle) 5px double;
 }
 
 h2 {
@@ -46,7 +47,7 @@ nav ul {
     background-color: var(--lighter);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     list-style-type: none;
 }
 
@@ -61,8 +62,8 @@ li {
 
 #banner {
     width: 100%;
-    height: 550px;
-    background-image: url(./Placeholder-images/family-pic-at-the-beach.jpg);
+    height: 500px;
+    background-image: url(./Placeholder-images/nice_coat.jpg);
     background-size: cover;
 }
 
@@ -78,35 +79,43 @@ li {
 .projects {
     display: flex;
     flex-direction: column;
-    width: 450px;
+    width: 100%;
 
     
 }
 
-.projects img {
-    width: 100%;
+#horiseon {
+    width: 750px;
+    height: 800px;
+    background-image: url(./Placeholder-images/Screenshot_2021-06-02_Horiseon.png);
+    background-size: cover;
 }
 
-/* Small devices (tablets, 768px and up) */
+.coming_soon {
+    width: 400px;
+    height: 400px;
+    background-image: url(./Placeholder-images/image_1.png);
+}
+
+
+}
+
 @media (min-width: 768px) { 
-    nav ul {
-        flex-direction: row;
-        justify-content: space-evenly;
-        
-    }
+    
 
-    .projects {
-        width: 500px;
-    }
 
-    .projects img {
-        width: 100%;
-    }
  }
 
-/* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
+
+    nav ul {
+        flex-direction: row;
+        justify-content: space-between;
+    }
   
+    #banner {
+        height: 800px;
+    }
 
     #about-me h2 {
      float: left;
@@ -114,15 +123,15 @@ li {
      border-right: var(--sky) 2px solid;   
     }
 
+    #horiseon {
+        margin-right: 50%;
+    }
 
     .projects {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: flex-start;
-        width: 650px;
+        
     }
 
-    .projects img {
-        width: 100%;
-    }
  }
