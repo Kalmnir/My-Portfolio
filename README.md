@@ -14,7 +14,7 @@ As a web developer, having a functioning portfolio for possible employers to vie
 ```
 
 ## Screnshot of deployed site
-
+![website screenshot](https://github.com/Kalmnir/My-Portfolio/blob/main/assets/screenshot/Screenshot%202021-06-14%20at%2019-58-19%20John-Mark%20Sackett's%20Portfolio.png)
 
 ## Link to deployed site
 https://kalmnir.github.io/My-Portfolio/
