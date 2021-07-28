@@ -91,6 +91,27 @@ li {
     background-size: cover;
 }
 
+.pinned-homework1 {
+    width: 400px;
+    height: 400px;
+    background-image: url(./Placeholder-images/Weather_Search_Site.png);
+    background-size: contain;
+}
+
+.pinned-homework2 {
+    width: 400px;
+    height: 400px;
+    background-image: url(./Placeholder-images/WorkDayScheduler.png);
+    background-size: contain;
+}
+
+.pinned-homework3 {
+    width: 400px;
+    height: 400px;
+    background-image: url(./Placeholder-images/password-generator.png);
+    background-size: contain;
+}
+
 .coming_soon {
     width: 400px;
     height: 400px;
